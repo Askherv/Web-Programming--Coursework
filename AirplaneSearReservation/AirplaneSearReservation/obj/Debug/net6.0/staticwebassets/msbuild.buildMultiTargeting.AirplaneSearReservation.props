@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AirplaneSearReservation.props" />
+</Project>
