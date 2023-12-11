@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+	<link rel="stylesheet" href="~/Template/css/register.css" type="text/css" media="all" />
+</head>
+<body>
+	<section class="form-26-1">
+		<div class="form-26-mian">
+			<div class="layer">
+				<div class="wrapper">
+					<div class="form-inner-cont">
+						<div class="forms-26-info">
+							<h2>Kaydol</h2><br />
+						</div>
+						<div class="form-right-inf">
+							<form action="#" method="post" class="signin-form">
+								<div class="forms-gds">
+									<div class="form-input">
+										<input type="text" name="firstname" placeholder="İsim" required />
+									</div>
+									<div class="form-input">
+										<input type="text" name="lastname" placeholder="Soyisim" required />
+									</div>
+									<div class="form-input">
+										<input type="email" name="email" placeholder="Email" required />
+									</div>
+									<div class="form-input">
+										<input type="password" name="password" placeholder="Şifre" required />
+									</div>
+									<div class="form-input">
+										<input type="password" name="password" placeholder="Şifreyi onaylayınız" required />
+									</div>
+									<div class="form-input"><button class="btn">Kaydol</button></div>
+								</div>
+								<h6 class="already">Hesabınız var mı? <a href="Login"><span>Giriş Yap<span></span></span></a></h6>
+							</form>
+
+						</div>
+						<div class="copyright text-center">
+							<p>
+								© Tüm haklar saklıdır | Design by Nihad Asgarov & Eren Dinç
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>
