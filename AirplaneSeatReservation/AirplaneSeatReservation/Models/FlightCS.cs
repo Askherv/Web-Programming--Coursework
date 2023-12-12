@@ -3,7 +3,7 @@ using Microsoft.Extensions.Configuration;
 using AirplaneSeatReservation.Models;
 using System.Collections.Generic;
 
-namespace AirplaneSearReservation.Models
+namespace AirplaneSeatReservation.Models
 {
 	public class FlightCS : DbContext
 	{

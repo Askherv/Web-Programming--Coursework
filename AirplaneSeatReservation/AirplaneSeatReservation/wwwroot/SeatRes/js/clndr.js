@@ -1,23 +1,3 @@
-/**
- *               ~ CLNDR v1.4.0 ~
- * ==============================================
- *       https://github.com/kylestetz/CLNDR
- * ==============================================
- *  Created by kyle stetz (github.com/kylestetz)
- *       & available under the MIT license
- * http://opensource.org/licenses/mit-license.php
- * ==============================================
- *
- * This is the fully-commented development version of CLNDR.
- * For the production version, check out clndr.min.js
- * at https://github.com/kylestetz/CLNDR
- *
- * This work is based on the
- * jQuery lightweight plugin boilerplate
- * Original author: @ajpiano
- * Further changes, comments: @addyosmani
- * Licensed under the MIT license
- */
 (function (factory) {
     // Multiple loading methods are supported depending on
     // what is available globally. While moment is loaded

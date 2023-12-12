@@ -1,20 +1,20 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace AirplaneSearReservation.Models
+namespace AirplaneSeatReservation.Models
 {
 	[Table("Flight")]
 	public class Flight
 	{
 		[Key]
-		public int FlightID { get; set; }
+		public Guid FlightID { get; set; }
 
 		[ForeignKey("Route")]
-		public int RouteID { get; set; }
+		public Guid RouteID { get; set; }
 		public Route? Route { get; set; }
 
 		[ForeignKey("Aircraft")]
-		public int AircraftID { get; set; }
+		public Guid AircraftID { get; set; }
 		public Aircraft? Aircraft { get; set; }
 
 		[Required]

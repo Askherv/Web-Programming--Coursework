@@ -1,11 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans+Mono);
 .noselect {
   -webkit-user-select: none;
-  /* Chrome/Safari */
   -moz-user-select: none;
-  /* Firefox */
   -ms-user-select: none;
-  /* IE10+ */
 }
 .left-align {
   text-align: left;
@@ -45,11 +42,8 @@
 .cal1 .clndr .clndr-controls .clndr-control-button .clndr-next-button {
   cursor: pointer;
   -webkit-user-select: none;
-  /* Chrome/Safari */
   -moz-user-select: none;
-  /* Firefox */
   -ms-user-select: none;
-  /* IE10+ */
 }
 .cal1 .clndr .clndr-controls .clndr-control-button .clndr-next-button:hover {
   color: #F2B33F;
@@ -64,11 +58,8 @@
 .cal1 .clndr .clndr-controls .clndr-control-button .clndr-previous-button {
   cursor: pointer;
   -webkit-user-select: none;
-  /* Chrome/Safari */
   -moz-user-select: none;
-  /* Firefox */
   -ms-user-select: none;
-  /* IE10+ */
 }
 .cal1 .clndr .clndr-controls .clndr-control-button .clndr-previous-button:hover {
   color: #F2B33F;
@@ -196,11 +187,8 @@
   text-align: left;
   cursor: pointer;
   -webkit-user-select: none;
-  /* Chrome/Safari */
   -moz-user-select: none;
-  /* Firefox */
   -ms-user-select: none;
-  /* IE10+ */
 }
 .cal2 .clndr .clndr-controls .clndr-previous-button:hover {
   background-color: #f4f4f4;
@@ -216,11 +204,8 @@
   text-align: right;
   cursor: pointer;
   -webkit-user-select: none;
-  /* Chrome/Safari */
   -moz-user-select: none;
-  /* Firefox */
   -ms-user-select: none;
-  /* IE10+ */
 }
 .cal2 .clndr .clndr-controls .clndr-next-button:hover {
   background-color: #f4f4f4;
@@ -305,11 +290,8 @@
   text-align: left;
   cursor: pointer;
   -webkit-user-select: none;
-  /* Chrome/Safari */
   -moz-user-select: none;
-  /* Firefox */
   -ms-user-select: none;
-  /* IE10+ */
 }
 .cal3 .clndr .clndr-controls .clndr-previous-button:hover {
   background-color: #f4f4f4;
@@ -325,11 +307,8 @@
   text-align: right;
   cursor: pointer;
   -webkit-user-select: none;
-  /* Chrome/Safari */
   -moz-user-select: none;
-  /* Firefox */
   -ms-user-select: none;
-  /* IE10+ */
 }
 .cal3 .clndr .clndr-controls .clndr-next-button:hover {
   background-color: #f4f4f4;
@@ -384,11 +363,8 @@
 .clndr-next-year-button,
 .clndr-previous-year-button {
   -webkit-user-select: none;
-  /* Chrome/Safari */
   -moz-user-select: none;
-  /* Firefox */
   -ms-user-select: none;
-  /* IE10+ */
 }
 .clndr-next-button.inactive,
 .clndr-previous-button.inactive,

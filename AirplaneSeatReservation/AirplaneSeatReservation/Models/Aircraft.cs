@@ -1,13 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace AirplaneSearReservation.Models
+namespace AirplaneSeatReservation.Models
 {
 	[Table("Aircraft")]
 	public class Aircraft
 	{
 		[Key]
-		public int AircraftID { get; set; }
+		public Guid AircraftID { get; set; }
 		public string? AircraftModel { get; set; }
 		public int AircraftSeats { get; set; }
 

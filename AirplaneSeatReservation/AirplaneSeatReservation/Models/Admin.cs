@@ -7,7 +7,7 @@ namespace AirplaneSeatReservation.Models
         public class Admin
         {
             [Key]
-            public int AdminID { get; set; }
+            public Guid AdminID { get; set; }
             public string? AdminName { get; set; }
             public string? AdminPassword { get; set; }
         }

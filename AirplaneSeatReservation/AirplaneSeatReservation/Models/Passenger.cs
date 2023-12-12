@@ -5,7 +5,7 @@ namespace AirplaneSeatReservation.Models
     public class Passenger
     {
         [Key]
-        public int PassengerID { get; set; }
+        public Guid PassengerID { get; set; }
 
         [Required(ErrorMessage = "İsim boş bırakılamaz!")]
         [Display(Name = "İsim")]

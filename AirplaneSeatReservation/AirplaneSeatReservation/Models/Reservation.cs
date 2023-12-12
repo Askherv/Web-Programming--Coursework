@@ -2,23 +2,23 @@
 using System.ComponentModel.DataAnnotations;
 using AirplaneSeatReservation.Models;
 
-namespace AirplaneSearReservation.Models
+namespace AirplaneSeatReservation.Models
 {
 	[Table("Reservation")]
 	public class Reservation
 	{
 		[Key]
-		public int ReservationID { get; set; }
+		public Guid ReservationID { get; set; }
 
 		[ForeignKey("Flight")]
-		public int FlightID { get; set; }
+		public Guid FlightID { get; set; }
 		public Flight? Flight { get; set; }
 
 		[Required]
 		public string? SeatNumber { get; set; }
 
         [ForeignKey("Passenger")]
-		public int PassengerID { get; set; }
+		public Guid PassengerID { get; set; }
 		public Passenger? Passenger { get; set; }
     }
 }

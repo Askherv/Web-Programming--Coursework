@@ -1,13 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace AirplaneSearReservation.Models
+namespace AirplaneSeatReservation.Models
 {
 	[Table("UserLogin")]
 	public class UserLogin
 	{
 		[Key]
-		public int UserID { get; set; }
+		public Guid UserID { get; set; }
 
 		[Required(ErrorMessage = "Kullanıcı adı boş bırakılamaz!")]
 		[Display(Name = "Kullanıcı adı")]

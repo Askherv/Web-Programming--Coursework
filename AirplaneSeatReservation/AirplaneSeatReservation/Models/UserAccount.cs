@@ -1,13 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace AirplaneSearReservation.Models
+namespace AirplaneSeatReservation.Models
 {
 	[Table("UserAccount")]
 	public class UserAccount
 	{
 		[Key]
-		public int UserAccountID { get; set; }
+		public Guid UserAccountID { get; set; }
 
 		[Required(ErrorMessage = "İsim boş bırakılamaz!")]
 		[Display(Name = "İsim")]
@@ -34,10 +34,5 @@ namespace AirplaneSearReservation.Models
 		[DataType(DataType.Password)]
 		[MinLength(6, ErrorMessage = "Şifreniz en az 6 karakterden oluşmalı!"), MaxLength(15, ErrorMessage = "Şifreniz en fazla 15 karakterden oluşmalı!")]
 		public string? CPassword { get; set; }
-
-		[Required(ErrorMessage = "Telefon numarası boş bırakılamaz!"), RegularExpression(@"^([0-9]{10})&", ErrorMessage = "Geçersiz telefon numarası")]
-		[Display(Name = "Telefon Numarası")]
-		[StringLength(10)]
-		public string? TelNo { get; set; }
-	}
+    }
 }
