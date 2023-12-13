@@ -1,3 +1,9 @@
+/*
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+*/
 h4, h5, h6,
 h1, h2, h3 {margin: 0;}
 ul, ol {margin: 0;}
@@ -33,6 +39,8 @@ body a:hover{
 .main-content {
     position: relative;
 }
+/*-------HEADER SECTION------*/
+/* ----STICKY HEADER----*/
 .sticky-header{
     position: fixed;
     top: 0;
@@ -59,6 +67,7 @@ body a:hover{
 .header-right {
     float: right;
 }
+/* ----menu-icon----*/
 button#showLeftPush {
     font-size: 1.5em;
     width: 80px;
@@ -77,6 +86,7 @@ button#showLeftPush {
 button#showLeftPush:hover {
     color: #6164C1;
 }
+/*--push-menu-css--*/
 .cbp-spmenu {
 	position: fixed;
 }
@@ -94,6 +104,7 @@ button#showLeftPush:hover {
 .cbp-spmenu-left.cbp-spmenu-open {
 	left: -309px;
 }
+/* Push classes applied to the body */
 .cbp-spmenu-push {
 	overflow-x: hidden;
 	position: relative;
@@ -101,6 +112,8 @@ button#showLeftPush:hover {
 .cbp-spmenu-push-toright {
 	left: 0;
 }
+/* Transitions */
+
 .cbp-spmenu,
 .cbp-spmenu-push {
 	-webkit-transition: all 0.3s ease;
@@ -116,6 +129,8 @@ button#showLeftPush:hover {
 .cbp-spmenu-push.cbp-spmenu-push-toright div#page-wrapper {
     margin: 0;
 }
+/*--//push-menu-css--*/
+/*--side-menu--*/
 .sidebar ul li{
 	 margin-bottom: 1em;
 }
@@ -192,6 +207,8 @@ ul.dropdown-menu{
 	-moz-backface-visibility: visible !important;
 	data-wow-delay:".1s";
 }
+/*--//side-menu--*/
+/* ----Logo----*/
 .logo {
     background: #6164C1;
     text-align: center;
@@ -214,6 +231,8 @@ ul.dropdown-menu{
     text-align: center;
     letter-spacing: 7px;
 }
+/* ----//Logo----*/
+/*start search*/
 .search-box {
     float: left;
     width: 34%;
@@ -232,7 +251,7 @@ ul.dropdown-menu{
     color: #6164C1;
     padding: 0.5em 1em;
 	border: 2px solid rgba(79, 82, 186, 0.3);
-	-webkit-appearance: none;
+	-webkit-appearance: none; /* for box shadows to show on iOS */
 	font-family: 'Roboto Condensed', sans-serif;
 }
 .sb-search-input::-webkit-input-placeholder {
@@ -273,6 +292,7 @@ ul.dropdown-menu{
     stroke-dasharray: 962;
     stroke-dashoffset: 962;
 }
+/* Madoka */
 .input__field--madoka {
 	background: transparent;
 	display: block;
@@ -295,6 +315,8 @@ ul.dropdown-menu{
 	-webkit-transform: scale3d(0.81, 0.81, 1) translate3d(0, 4em, 0);
 	transform: scale3d(0.81, 0.81, 1) translate3d(0, 4em, 0);
 }
+/*--//search-ends --*/
+/*--- Progress Bar ----*/
 .meter {
 	position: relative;
 }
@@ -344,6 +366,7 @@ ul.dropdown-menu{
 	-moz-animation: none;
 	background-image: none;
 }
+/*--- User Panel---*/
 .profile_details_left {
     float: left;
 }
@@ -450,6 +473,7 @@ i.fa.fa-tasks{
 .user-panel-top li span.yellow{
 	background:#bdc3c7;
 }
+/***** Messages *************/
 .notification_header{
 	background-color:#FAFAFA;
 	padding: 10px 15px;
@@ -517,6 +541,7 @@ i.fa.fa-tasks{
 	color:#979797 !important;
 	font-size:11px;
 }
+/*---bages---*/
 .header-right span.badge {
     font-size: 11px;
     font-weight: bold;
@@ -589,6 +614,8 @@ i.icon_6{
   color: #2196F3 !important;
   float:right;
 }
+/*---//bages---*/
+/*--Progress bars--*/
 .progress {
     height: 10px;
     margin: 7px 0;
@@ -700,6 +727,8 @@ i.icon_6{
     background-position: 0 0;
   }
 }
+/*--Progress bars--*/
+/********* profile details **********/
 ul.dropdown-menu.drp-mnu i.fa {
     margin-right: 0.5em;
 }
@@ -771,6 +800,7 @@ ul.dropdown-menu.drp-mnu li {
     font-weight: normal;
     margin-top: .3em;
 }
+/*---footer---*/
 .footer {
     background: #fff;
     padding: 1em;
@@ -793,6 +823,8 @@ ul.dropdown-menu.drp-mnu li {
 .footer  p a:hover{
 	text-decoration:underline;
 }
+/*---//footer---*/
+/*---main-content-start---*/
 .widget {
     width: 32%;
     border: 1px solid #F5F1F1;
@@ -841,6 +873,7 @@ ul.dropdown-menu.drp-mnu li {
     font-size: 2em;
     color: #fff;
 }
+/*--charts--*/
 .charts,.row {
     margin: 2em 0 0;
 }
@@ -860,12 +893,14 @@ h4.title {
     margin: 0.5em 0 1em;
     text-transform: uppercase;
 }
+/*--//charts--*/
 .widget-shadow {
     background-color: #fff;
     box-shadow: 0 -1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
 	-webkit-box-shadow: 0 -1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
 	-moz-box-shadow: 0 -1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
 }
+/*--statistics--*/
 .stats-info.widget {
     padding: 1em;
     background-color: #fff;
@@ -924,9 +959,13 @@ h4.title {
     color: #555;
     padding: 11px !important;
 }
+/*--//statistics--*/
+/*--map--*/
 .map {
     padding: 1em;
 }
+/*--//map--*/
+/*--social-media--*/
 .social-media {
     padding: 0;
     margin-left: 2%;
@@ -1010,9 +1049,14 @@ h4.title {
     transform: rotatey(360deg);
     transition: .5s all;
 }
+/*--//social-media--*/
+/*--calender --*/
 .calender {
     padding: 1em 1.5em 1.5em;
 }
+/*--//calender --*/
+/*---//main-content---*/
+/*-- media --*/
 h3.title1 {
     font-size: 2em;
     color: #e94e02;
@@ -1106,6 +1150,7 @@ td.head {
   color: #000 !important;
   font-size: 1.2em !important;
 }
+/*--Typography--*/
 h3.hdg {
     font-size: 2em;
 }
@@ -1249,6 +1294,8 @@ section#tables  p {
 		margin-bottom: 10px;
 	}
 }
+/*--//Typography--*/
+/*--table--*/
 .tables h4 {
     font-size: 1.4em;
     margin-bottom: 1em;
@@ -1267,6 +1314,8 @@ section#tables  p {
 .table-hover > tbody > tr:hover {
     background-color: #E8E6E6;
 }
+/*--//table--*/
+/*--forms--*/
 .forms h3.title1 {
     margin-bottom:0;
 }
@@ -1312,6 +1361,7 @@ section#tables  p {
     margin-top:2em;
     padding: 2em;
 }
+/* --  general forms  -- */
 .form-control1, .form-control_2.input-sm{
   border: 1px solid #ccc;
   padding: 5px 8px;
@@ -1401,6 +1451,8 @@ button.note-color-btn {
 .form-group input#disabledinput {
 	cursor: not-allowed;
 }
+/*--//forms--*/
+/*--validation--*/
 .validation-grids {
     padding: 0;
     width: 49%;
@@ -1444,6 +1496,8 @@ button.note-color-btn {
 .bottom .form-group {
     margin-bottom: 0;
 }
+/*--//validation--*/
+/*--grids--*/
 .grids {
     padding: 2em 1em;
 	margin-bottom: 2em;
@@ -1457,6 +1511,8 @@ button.note-color-btn {
 .grid-bottom .table{
 	margin:0;
 }
+/*--//grids--*/
+/*--blank-page--*/
 .blank-page{
     padding: 2em;
 }
@@ -1465,6 +1521,8 @@ button.note-color-btn {
     color: #555;
     line-height: 1.8em;
 }
+/*--//blank-page--*/
+/*--login-page--*/
 .login-page {
     width: 40%;
     margin: 1em auto 0;
@@ -1607,6 +1665,8 @@ button.note-color-btn {
 	-o-transform: rotateY(360deg);
 	-ms-transform: rotateY(360deg);
 }
+/*--//login-page--*/
+/*-- sign-up --*/
 .signup-page h3.title1 {
     margin-bottom: 0.4em;
 	text-align: center;
@@ -1698,6 +1758,8 @@ p.creating {
     color: #7D7878;
     font-size: 1em;
 }
+/*-- //sign-up --*/
+/*-- charts-page--*/
 .chrt-page-grids {
     width: 49%;
     border: 1px solid #F5F1F1;
@@ -1727,6 +1789,8 @@ p.creating {
 .chrt-page-grids  canvas#bar {
     width: 100% !important;
 }
+/*--//charts-page--*/
+/*--general elements--*/
 .panel-info.widget-shadow {
     padding: 2em 1em;
 }
@@ -1763,6 +1827,7 @@ h4.modal-title {
 .general-grids.grids-right {
     margin-left: 2%;
 }
+/*--ScrollSpy --*/
 .scrollspy-example {
     position: relative;
     height: 200px;
@@ -1787,6 +1852,7 @@ h4.modal-title {
 .general-grids h4.title2 ,.tool-tips h4.title2{
     margin: 0 0 1em;
 }
+/*--tabs --*/
 .nav-tabs {
     border-bottom: 1px solid #797979;
 }
@@ -1800,6 +1866,7 @@ h4.modal-title {
     color: #555;
     line-height: 1.8em;
 }
+/*--tool-tips--*/
 .tool-tips.widget-shadow {
     padding: 2em;
     margin-top: 2em;
@@ -1814,6 +1881,8 @@ h4.modal-title {
 .collps-grids{
     width: 49%;
 }
+/*--//general elements--*/
+/*--inbox--*/
 .inbox-page {
     width: 80%;
     margin: 0 auto;
@@ -1952,6 +2021,8 @@ h4.modal-title {
 	outline:none;
 	font-weight: 600;
 }
+/*--//inbox--*/
+/*--compose mail--*/
 .compose-left{
     width: 28%;
 	padding: 0;
@@ -2077,6 +2148,9 @@ h4.modal-title {
     padding: 0.4em 1em;
     margin-top: 1em;
 }
+/*--//compose mail--*/
+/*--widgets-page--*/
+/*--profile--*/
 .profile{
     padding: 0;
 	width: 32%;
@@ -2169,6 +2243,8 @@ i.fa.fa-facebook.profile-icon {
     color: #6F6F6F;
     margin-top: 0.3em;
 }
+/*--//profile--*/
+/*--chat--*/
 .chat-mdl-grid {
     margin: 0 2%;
 }
@@ -2248,6 +2324,8 @@ i.fa.fa-facebook.profile-icon {
 	-webkit-box-shadow: 0px -1px 2px #CECECE;
 	-moz-box-shadow: 0px -1px 2px #CECECE;
 }
+/*--//chat--*/
+/*--todo--*/
 .single-bottom ul li {
     list-style: none;
     padding: 0px 10px 18px;
@@ -2284,6 +2362,8 @@ i.fa.fa-facebook.profile-icon {
     width: 10px;
     height: 10px;
 }
+/*--//todo--*/
+/*--weather--*/
 .weather-grids {
     padding: 0;
     width: 49%;
@@ -2322,6 +2402,7 @@ i.fa.fa-facebook.profile-icon {
     vertical-align: bottom;
     margin-right: 0.5em;
 }
+/*----*/
 .weather-grids canvas {
     display: block;
     margin: 0 auto;
@@ -2360,6 +2441,8 @@ i.fa.fa-facebook.profile-icon {
 	font-size: 1em;
 	line-height: 1.4em;
 }
+/*--//weather--*/
+/*--circle-charts--*/
 .weather-grids.weather-right {
     margin-left: 2%;
     text-align: center;
@@ -2383,6 +2466,7 @@ i.fa.fa-facebook.profile-icon {
     color: #555;
     margin-top: 1em;
 }
+/*--//circle-charts--*/
 .widget_1_box {
     width: 32%;
     padding: 0;
@@ -2438,6 +2522,8 @@ i.fa.fa-facebook.profile-icon {
     -o-background-size: 40px 40px;
     background-size: 40px 40px;
 }
+/*--//widgets-page--*/
+/*---- responsive-design -----*/
 @media(max-width:1440px){
 .login-page {
     width: 43%;
@@ -3898,3 +3984,4 @@ h4.title3 {
     margin: 1em auto 0;
 }
 }
+/*--//responsive-design---*/

@@ -8,5 +8,6 @@ namespace AirplaneSeatReservation.Controllers
 		{
 			return View();
 		}
-	}
+
+    }
 }
