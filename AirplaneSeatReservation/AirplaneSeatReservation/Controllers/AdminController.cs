@@ -9,5 +9,30 @@ namespace AirplaneSeatReservation.Controllers
 			return View();
 		}
 
+        public IActionResult Aircraft()
+        {
+            return View();
+        }
+
+        public IActionResult Flight()
+        {
+            return View();
+        }
+
+        public IActionResult Route()
+        {
+            return View();
+        }
+
+        public IActionResult Reservation()
+        {
+            return View();
+        }
+
+        public IActionResult Users()
+        {
+            return View();
+        }
+
     }
 }

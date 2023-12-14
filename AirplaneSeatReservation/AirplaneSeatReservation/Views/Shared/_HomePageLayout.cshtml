@@ -18,8 +18,8 @@
             <li class="link"><a href="#">Koltuklar</a></li>
             <li class="link"><a href="#">Destinasyonlar</a></li>
         </ul>
-        <button class="btn" onclick="redirectToLoginPage('User/Login')">Giriş Yap</button>
-        <button class="btn2" onclick="redirectToLoginPage('User/Register')">Kaydol</button>
+        <button class="btn" onclick="redirectToLoginPage('/User/Login')">Giriş Yap</button>
+        <button class="btn2" onclick="redirectToLoginPage('/User/Register')">Kaydol</button>
         <script>
             function redirectToLoginPage(page) {
                 window.location.href = page;
@@ -38,41 +38,37 @@
             <div class="form__group">
                 <span><i class="ri-flight-takeoff-line"></i></span>
                 <div class="input__content">
+                    <p>Nereden</p>
                     <div class="input__group">
                         <input type="text" />
-                        <label>Nereden</label>
                     </div>
-                    <p>Kalkış Şehri</p>
                 </div>
             </div>
             <div class="form__group">
                 <span><i class="ri-flight-land-line"></i></span>
                 <div class="input__content">
+                    <p>Nereye</p>
                     <div class="input__group">
                         <input type="text" />
-                        <label>Nereye</label>
                     </div>
-                    <p>Varış Şehri</p>
                 </div>
             </div>
             <div class="form__group">
                 <span><i class="ri-calendar-line"></i></span>
                 <div class="input__content">
+                    <p>Gidiş Tarihi</p>
                     <div class="input__group">
                         <input type="text" />
-                        <label>Kalkış</label>
                     </div>
-                    <p>Tarih Ekle</p>
                 </div>
             </div>
             <div class="form__group">
                 <span><i class="ri-calendar-line"></i></span>
                 <div class="input__content">
+                    <p>Dönüş Tarihi</p>
                     <div class="input__group">
                         <input type="text" />
-                        <label>Varış</label>
                     </div>
-                    <p>Tarih Ekle</p>
                 </div>
             </div>
             <button class="btn3"><i class="ri-search-line"></i></button>

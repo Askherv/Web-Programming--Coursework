@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE HTML>
 <html>
 <head>
-	<meta name = "viewport" content = "width=device-width"/>
+	<meta name="viewport" content="width=device-width" />
 	<title> @ViewBag.Title </title>
 	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<link href="~/SeatRes/css/bootstrap.css" rel='stylesheet' type='text/css' />
@@ -32,13 +32,13 @@
 				<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
 					<ul class="nav" id="side-menu">
 						<li>
-							<a href="Index" class="active"><i class="fa fa-home nav_icon"></i>Yönetici Paneli</a>
+							<a href="Index"><i class="fa fa-home nav_icon"></i>Yönetici Paneli</a>
 						</li>
 						<li>
 							<a href="Aircraft"><i class="fa fa-plane nav_icon"></i>Uçaklar</a>
 						</li>
 						<li class="">
-							<a href="Flight"><i class="fa fa-plane nav_icon"></i>Uçuşlar</a>
+							<a href="Flight" class="active"><i class="fa fa-plane nav_icon"></i>Uçuşlar</a>
 						</li>
 						<li>
 							<a href="Route"><i class="fa fa-plane nav_icon"></i>Güzergahlar</a>
@@ -238,6 +238,39 @@
 				<div class="clearfix"> </div>
 			</div>
 			<div class="clearfix"> </div>
+		</div>
+		<div id="page-wrapper">
+			<div class="main-page">
+				<h3 class="title1">Uçuş Ekle</h3>
+				<div class="blank-page widget-shadow scroll" id="style-2 div1">
+					<section class="section__container booking__container">
+						<div class="booking__nav">
+							<span>Uçuş Bilgileri</span>
+						</div>
+						<form>
+							<div class="form__group">
+								<span><i class="ri-flight-takeoff-line"></i></span>
+								<div class="input__content">
+									<p>Uçak No</p>
+									<div class="input__group">
+										<input type="text" />
+									</div>
+								</div>
+							</div>
+							<div class="form__group">
+								<span><i class="ri-flight-land-line"></i></span>
+								<div class="input__content">
+									<p>Güzergah No</p>
+									<div class="input__group">
+										<input type="text" />
+									</div>
+								</div>
+							</div>
+							<button class="btn3">Ekle</i></button>
+						</form>
+					</section>
+				</div>
+			</div>
 		</div>
 		<div>
 			@RenderBody()

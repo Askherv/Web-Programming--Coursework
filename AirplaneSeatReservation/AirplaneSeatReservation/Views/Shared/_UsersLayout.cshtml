@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE HTML>
 <html>
 <head>
-	<meta name = "viewport" content = "width=device-width"/>
+	<meta name="viewport" content="width=device-width" />
 	<title> @ViewBag.Title </title>
 	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<link href="~/SeatRes/css/bootstrap.css" rel='stylesheet' type='text/css' />
@@ -32,7 +32,7 @@
 				<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
 					<ul class="nav" id="side-menu">
 						<li>
-							<a href="Index" class="active"><i class="fa fa-home nav_icon"></i>Yönetici Paneli</a>
+							<a href="Index"><i class="fa fa-home nav_icon"></i>Yönetici Paneli</a>
 						</li>
 						<li>
 							<a href="Aircraft"><i class="fa fa-plane nav_icon"></i>Uçaklar</a>
@@ -47,7 +47,7 @@
 							<a href="Reservation"><i class="fa fa-envelope nav_icon"></i>Rezervasyonlar</a>
 						</li>
 						<li>
-							<a href="Users"><i class="fa fa-user nav_icon"></i>Kullanıcılar</a>
+							<a href="Users" class="active"><i class="fa fa-user nav_icon"></i>Kullanıcılar</a>
 						</li>
 					</ul>
 				</nav>
@@ -238,6 +238,17 @@
 				<div class="clearfix"> </div>
 			</div>
 			<div class="clearfix"> </div>
+		</div>
+		<div id="page-wrapper">
+			<div class="main-page">
+				<h3 class="title1">Kullanıcılar</h3>
+				<div class="blank-page widget-shadow scroll" id="style-2 div1">
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+						It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here.
+					</p>
+				</div>
+			</div>
 		</div>
 		<div>
 			@RenderBody()

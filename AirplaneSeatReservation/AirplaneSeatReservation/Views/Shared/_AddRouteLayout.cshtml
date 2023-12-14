@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE HTML>
 <html>
 <head>
-	<meta name = "viewport" content = "width=device-width"/>
+	<meta name="viewport" content="width=device-width" />
 	<title> @ViewBag.Title </title>
 	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<link href="~/SeatRes/css/bootstrap.css" rel='stylesheet' type='text/css' />
@@ -32,7 +32,7 @@
 				<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
 					<ul class="nav" id="side-menu">
 						<li>
-							<a href="Index" class="active"><i class="fa fa-home nav_icon"></i>Yönetici Paneli</a>
+							<a href="Index"><i class="fa fa-home nav_icon"></i>Yönetici Paneli</a>
 						</li>
 						<li>
 							<a href="Aircraft"><i class="fa fa-plane nav_icon"></i>Uçaklar</a>
@@ -41,7 +41,7 @@
 							<a href="Flight"><i class="fa fa-plane nav_icon"></i>Uçuşlar</a>
 						</li>
 						<li>
-							<a href="Route"><i class="fa fa-plane nav_icon"></i>Güzergahlar</a>
+							<a href="Route" class="active"><i class="fa fa-plane nav_icon"></i>Güzergahlar</a>
 						</li>
 						<li>
 							<a href="Reservation"><i class="fa fa-envelope nav_icon"></i>Rezervasyonlar</a>
@@ -238,6 +238,75 @@
 				<div class="clearfix"> </div>
 			</div>
 			<div class="clearfix"> </div>
+		</div>
+		<div id="page-wrapper">
+			<div class="main-page">
+				<h3 class="title1">Güzergah Ekle</h3>
+				<div class="blank-page widget-shadow scroll" id="style-2 div1">
+					<section class="section__container booking__container">
+						<div class="booking__nav">
+							<span>Güzergah Bilgileri</span>
+						</div>
+						<form>
+							<div class="form__group">
+								<span><i class="ri-flight-takeoff-line"></i></span>
+								<div class="input__content">
+									<p>Kalkış Şehri</p>
+									<div class="input__group">
+										<input type="text" />
+									</div>
+								</div>
+							</div>
+							<div class="form__group">
+								<span><i class="ri-flight-takeoff-line"></i></span>
+								<div class="input__content">
+									<p>Kalkış Havaalanı</p>
+									<div class="input__group">
+										<input type="text" />
+									</div>
+								</div>
+							</div>
+							<div class="form__group">
+								<span><i class="ri-flight-land-line"></i></span>
+								<div class="input__content">
+									<p>Varış Şehri</p>
+									<div class="input__group">
+										<input type="text" />
+									</div>
+								</div>
+							</div>
+							<div class="form__group">
+								<span><i class="ri-flight-takeoff-line"></i></span>
+								<div class="input__content">
+									<p>Varış Havaalanı</p>
+									<div class="input__group">
+										<input type="text" />
+									</div>
+								</div>
+							</div>
+							<div class="form__group">
+								<span><i class="ri-calendar-line"></i></span>
+								<div class="input__content">
+									<p>Kalkış Tarihi</p>
+									<div class="input__group">
+										<input type="text" />
+									</div>
+								</div>
+							</div>
+							<div class="form__group">
+								<span><i class="ri-calendar-line"></i></span>
+								<div class="input__content">
+									<p>Kalkış Saati</p>
+									<div class="input__group">
+										<input type="text" />
+									</div>
+								</div>
+							</div>
+							<button class="btn3">Ekle</button>
+						</form>
+					</section>
+				</div>
+			</div>
 		</div>
 		<div>
 			@RenderBody()

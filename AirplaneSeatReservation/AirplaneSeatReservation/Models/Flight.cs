@@ -16,8 +16,5 @@ namespace AirplaneSeatReservation.Models
 		[ForeignKey("Aircraft")]
 		public Guid AircraftID { get; set; }
 		public Aircraft? Aircraft { get; set; }
-
-		[Required]
-		public DateTime DepartureTime { get; set; }
 	}
 }

@@ -61,6 +61,22 @@
       "PackagePath": "staticwebassets\\SeatRes\\fonts\\glyphicons-halflings-regular.woff2"
     },
     {
+      "Id": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\images\\1.png",
+      "PackagePath": "staticwebassets\\SeatRes\\images\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\images\\2.png",
+      "PackagePath": "staticwebassets\\SeatRes\\images\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\images\\3.png",
+      "PackagePath": "staticwebassets\\SeatRes\\images\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\images\\a.png",
+      "PackagePath": "staticwebassets\\SeatRes\\images\\a.png"
+    },
+    {
       "Id": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\images\\i1.png",
       "PackagePath": "staticwebassets\\SeatRes\\images\\i1.png"
     },
