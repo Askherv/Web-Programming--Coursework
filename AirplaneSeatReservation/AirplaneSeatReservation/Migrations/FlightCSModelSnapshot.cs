@@ -28,11 +28,14 @@ namespace AirplaneSeatReservation.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("AdminName")
+                    b.Property<string>("AdminEmail")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("AdminPassword")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(15)
+                        .HasColumnType("nvarchar(15)");
 
                     b.HasKey("AdminID");
 
@@ -184,27 +187,6 @@ namespace AirplaneSeatReservation.Migrations
                     b.HasKey("UserAccountID");
 
                     b.ToTable("UserAccount");
-                });
-
-            modelBuilder.Entity("AirplaneSeatReservation.Models.UserLogin", b =>
-                {
-                    b.Property<Guid>("UserID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasMaxLength(15)
-                        .HasColumnType("nvarchar(15)");
-
-                    b.Property<string>("Username")
-                        .IsRequired()
-                        .HasMaxLength(15)
-                        .HasColumnType("nvarchar(15)");
-
-                    b.HasKey("UserID");
-
-                    b.ToTable("UserLogin");
                 });
 
             modelBuilder.Entity("AirplaneSeatReservation.Models.Flight", b =>

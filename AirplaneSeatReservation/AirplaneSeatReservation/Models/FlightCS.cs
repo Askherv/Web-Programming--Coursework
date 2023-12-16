@@ -13,7 +13,6 @@ namespace AirplaneSeatReservation.Models
 		{
 			_configuration = configuration;
 		}
-		public DbSet<UserLogin> UserLogins { get; set; }
 		public DbSet<UserAccount> UserAccounts { get; set; }
         public DbSet<Passenger> Passengers { get; set; }
         public DbSet<Admin> Admins { get; set; }
