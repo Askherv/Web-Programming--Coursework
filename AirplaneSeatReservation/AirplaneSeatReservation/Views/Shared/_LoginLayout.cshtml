@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@model AirplaneSeatReservation.Models.UserAccount;
+<!DOCTYPE html>
 
 <html>
 <head>
@@ -16,13 +17,14 @@
 							<h2>Giriş Yap</h2><br />
 						</div>
 						<div class="form-right-inf">
-							<form action="#" method="post" class="signin-form">
+							<p style="color:red;">@ViewBag.error</p>
+							<form action="Login" method="post" class="signin-form">
 								<div class="forms-gds">
 									<div class="form-input">
-										<input type="email" name="" placeholder="Email" required />
+										<input type="email" asp-for="Email" placeholder="Email" required />
 									</div>
 									<div class="form-input">
-										<input type="password" name="" placeholder="Şifre" required />
+										<input type="password" asp-for="Password" placeholder="Şifre" required />
 									</div>
 									<div class="form-input"><button class="btn">Giriş Yap</button></div>
 								</div>
