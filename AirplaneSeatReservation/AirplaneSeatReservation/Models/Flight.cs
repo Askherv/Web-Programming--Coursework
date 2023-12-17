@@ -7,14 +7,14 @@ namespace AirplaneSeatReservation.Models
 	public class Flight
 	{
 		[Key]
-		public Guid FlightID { get; set; }
+		public int FlightID { get; set; }
 
-		[ForeignKey("Route")]
-		public Guid RouteID { get; set; }
-		public Route? Route { get; set; }
+		[ForeignKey("Itinerary")]
+		public int ItineraryID { get; set; }
+		public Itinerary? Itinerary { get; set; }
 
-		[ForeignKey("Aircraft")]
-		public Guid AircraftID { get; set; }
+        [ForeignKey("Aircraft")]
+		public int AircraftID { get; set; }
 		public Aircraft? Aircraft { get; set; }
 	}
 }

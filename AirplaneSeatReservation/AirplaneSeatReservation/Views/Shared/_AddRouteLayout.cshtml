@@ -1,4 +1,5 @@
-﻿<!DOCTYPE HTML>
+﻿@model AirplaneSeatReservation.Models.Itinerary
+<!DOCTYPE HTML>
 <html>
 <head>
 	<meta name="viewport" content="width=device-width" />
@@ -247,13 +248,15 @@
 						<div class="booking__nav">
 							<span>Güzergah Bilgileri</span>
 						</div>
-						<form>
+						<p style="color:red;">@ViewBag.error</p>
+						<p style="color:green;">@ViewBag.correct</p>
+						<form action="Route" method="post">
 							<div class="form__group">
 								<span><i class="ri-flight-takeoff-line"></i></span>
 								<div class="input__content">
 									<p>Kalkış Şehri</p>
 									<div class="input__group">
-										<input type="text" />
+										<input type="text" asp-for="DepartureCity" />
 									</div>
 								</div>
 							</div>
@@ -262,7 +265,7 @@
 								<div class="input__content">
 									<p>Kalkış Havaalanı</p>
 									<div class="input__group">
-										<input type="text" />
+										<input type="text" asp-for="DepartureAirport" />
 									</div>
 								</div>
 							</div>
@@ -271,7 +274,7 @@
 								<div class="input__content">
 									<p>Varış Şehri</p>
 									<div class="input__group">
-										<input type="text" />
+										<input type="text" asp-for="ArrivalCity" />
 									</div>
 								</div>
 							</div>
@@ -280,7 +283,7 @@
 								<div class="input__content">
 									<p>Varış Havaalanı</p>
 									<div class="input__group">
-										<input type="text" />
+										<input type="text" asp-for="ArrivalAirport" />
 									</div>
 								</div>
 							</div>
@@ -289,7 +292,7 @@
 								<div class="input__content">
 									<p>Kalkış Tarihi</p>
 									<div class="input__group">
-										<input type="text" />
+										<input type="date" asp-for="DepartureDate" />
 									</div>
 								</div>
 							</div>
@@ -298,7 +301,7 @@
 								<div class="input__content">
 									<p>Kalkış Saati</p>
 									<div class="input__group">
-										<input type="text" />
+										<input type="time" asp-for="DepartureTime" />
 									</div>
 								</div>
 							</div>

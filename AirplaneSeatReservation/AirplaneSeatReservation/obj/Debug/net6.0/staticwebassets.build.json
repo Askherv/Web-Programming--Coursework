@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Sq5rsHIiGCcdogZVJg6NtKVEE0S3viINDuVmtBnT1aI=",
+  "Hash": "TZT1qeAMMDvTJCbUhCvzapttqP36wOsmHdzCj8IO1iI=",
   "Source": "AirplaneSeatReservation",
   "BasePath": "_content/AirplaneSeatReservation",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "AirplaneSeatReservation\\wwwroot",
       "Source": "AirplaneSeatReservation",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AirplaneSeatReservation.styles.css",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AirplaneSeatReservation.styles.css",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "AirplaneSeatReservation.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AirplaneSeatReservation.styles.css"
+      "OriginalItemSpec": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AirplaneSeatReservation.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AirplaneSeatReservation.bundle.scp.css",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AirplaneSeatReservation.bundle.scp.css",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "AirplaneSeatReservation.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AirplaneSeatReservation.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AirplaneSeatReservation.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\css\\site.css",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\favicon.ico",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\js\\site.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\css\\animate.css",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\css\\animate.css",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/css/animate.css",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\css\\animate.css"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\css\\bootstrap.css",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/css/bootstrap.css",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\css\\clndr.css",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\css\\clndr.css",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/css/clndr.css",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\css\\clndr.css"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\css\\custom.css",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\css\\custom.css",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/css/custom.css",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\css\\custom.css"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\css\\font-awesome.css",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\css\\font-awesome.css",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/css/font-awesome.css",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\css\\font-awesome.css"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\css\\jqvmap.css",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\css\\jqvmap.css",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/css/jqvmap.css",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\css\\jqvmap.css"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\css\\style.css",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\css\\style.css",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/css/style.css",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\fonts\\FontAwesome.otf",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\fonts\\FontAwesome.otf",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/fonts/FontAwesome.otf",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\fonts\\FontAwesome.otf"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\fonts\\fontawesome-webfont.eot",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\fonts\\fontawesome-webfont.eot",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/fonts/fontawesome-webfont.eot",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\fonts\\fontawesome-webfont.svg",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\fonts\\fontawesome-webfont.svg",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/fonts/fontawesome-webfont.svg",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\fonts\\fontawesome-webfont.ttf",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\fonts\\fontawesome-webfont.ttf",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/fonts/fontawesome-webfont.ttf",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\fonts\\fontawesome-webfont.woff",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\fonts\\fontawesome-webfont.woff",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/fonts/fontawesome-webfont.woff",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\fonts\\glyphicons-halflings-regular.woff",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\fonts\\glyphicons-halflings-regular.woff",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/fonts/glyphicons-halflings-regular.woff",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\fonts\\glyphicons-halflings-regular.woff"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\fonts\\glyphicons-halflings-regular.woff2",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\fonts\\glyphicons-halflings-regular.woff2",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/fonts/glyphicons-halflings-regular.woff2",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\fonts\\glyphicons-halflings-regular.woff2"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\images\\1.png",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\images\\1.png",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/images/1.png",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\images\\1.png"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\images\\2.png",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\images\\2.png",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/images/2.png",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\images\\2.png"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\images\\3.png",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\images\\3.png",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/images/3.png",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\images\\3.png"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\images\\a.png",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\images\\a.png",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/images/a.png",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\images\\a.png"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\images\\i1.png",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\images\\i1.png",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/images/i1.png",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\images\\i1.png"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\images\\i2.png",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\images\\i2.png",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/images/i2.png",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\images\\i2.png"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\images\\i3.png",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\images\\i3.png",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/images/i3.png",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\images\\i3.png"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\images\\i4.png",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\images\\i4.png",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/images/i4.png",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\images\\i4.png"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\images\\img1.png",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\images\\img1.png",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/images/img1.png",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\images\\img1.png"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\images\\lock.png",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\images\\lock.png",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/images/lock.png",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\images\\lock.png"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\images\\tick.png",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\images\\tick.png",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/images/tick.png",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\images\\tick.png"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\images\\user.png",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\images\\user.png",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/images/user.png",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\images\\user.png"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\bootstrap.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/js/bootstrap.js",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\Chart.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\Chart.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/js/Chart.js",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\js\\Chart.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\classie.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\classie.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/js/classie.js",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\js\\classie.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\clndr.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\clndr.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/js/clndr.js",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\js\\clndr.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\custom.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\custom.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/js/custom.js",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\js\\custom.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\jquery.circlechart.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\jquery.circlechart.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/js/jquery.circlechart.js",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\js\\jquery.circlechart.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\jquery.nicescroll.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\jquery.nicescroll.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/js/jquery.nicescroll.js",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\js\\jquery.nicescroll.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\jquery.vmap.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\jquery.vmap.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/js/jquery.vmap.js",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\js\\jquery.vmap.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\jquery.vmap.sampledata.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\jquery.vmap.sampledata.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/js/jquery.vmap.sampledata.js",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\js\\jquery.vmap.sampledata.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\jquery.vmap.world.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\jquery.vmap.world.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/js/jquery.vmap.world.js",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\js\\jquery.vmap.world.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\jquery-1.11.1.min.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\jquery-1.11.1.min.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/js/jquery-1.11.1.min.js",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\js\\jquery-1.11.1.min.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\metisMenu.min.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\metisMenu.min.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/js/metisMenu.min.js",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\js\\metisMenu.min.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\modernizr.custom.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\modernizr.custom.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/js/modernizr.custom.js",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\js\\modernizr.custom.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\moment-2.2.1.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\moment-2.2.1.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/js/moment-2.2.1.js",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\js\\moment-2.2.1.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\scripts.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\scripts.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/js/scripts.js",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\js\\scripts.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\site.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\site.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/js/site.js",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\skycons.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\skycons.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/js/skycons.js",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\js\\skycons.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\underscore-min.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\underscore-min.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/js/underscore-min.js",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\js\\underscore-min.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\validator.min.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\validator.min.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/js/validator.min.js",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\js\\validator.min.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\wow.min.js",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\SeatRes\\js\\wow.min.js",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "SeatRes/js/wow.min.js",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\SeatRes\\js\\wow.min.js"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\Template\\css\\login.css",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\Template\\css\\login.css",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "Template/css/login.css",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\Template\\css\\login.css"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\Template\\css\\register.css",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\Template\\css\\register.css",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "Template/css/register.css",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\Template\\css\\register.css"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\Template\\images\\layer.png",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\Template\\images\\layer.png",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "Template/images/layer.png",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\Template\\images\\layer.png"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\Template\\images\\plane.jpg",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\Template\\images\\plane.jpg",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "Template/images/plane.jpg",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\Template\\images\\plane.jpg"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\Template\\index.html",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\Template\\index.html",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "Template/index.html",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\Template\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\Template\\register.html",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\Template\\register.html",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "Template/register.html",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\Template\\register.html"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\assets\\client-1.jpg",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\assets\\client-1.jpg",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "ui/assets/client-1.jpg",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\ui\\assets\\client-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\assets\\client-2.jpg",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\assets\\client-2.jpg",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "ui/assets/client-2.jpg",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\ui\\assets\\client-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\assets\\client-3.jpg",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\assets\\client-3.jpg",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "ui/assets/client-3.jpg",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\ui\\assets\\client-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\assets\\client-4.jpg",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\assets\\client-4.jpg",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "ui/assets/client-4.jpg",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\ui\\assets\\client-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\assets\\header.jpg",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\assets\\header.jpg",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "ui/assets/header.jpg",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\ui\\assets\\header.jpg"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\assets\\lounge-1.jpg",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\assets\\lounge-1.jpg",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "ui/assets/lounge-1.jpg",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\ui\\assets\\lounge-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\assets\\lounge-2.jpg",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\assets\\lounge-2.jpg",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "ui/assets/lounge-2.jpg",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\ui\\assets\\lounge-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\assets\\plan-1.jpg",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\assets\\plan-1.jpg",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "ui/assets/plan-1.jpg",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\ui\\assets\\plan-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\assets\\plan-2.jpg",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\assets\\plan-2.jpg",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "ui/assets/plan-2.jpg",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\ui\\assets\\plan-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\assets\\plan-3.jpg",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\assets\\plan-3.jpg",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "ui/assets/plan-3.jpg",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\ui\\assets\\plan-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\assets\\traveller-1.jpg",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\assets\\traveller-1.jpg",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "ui/assets/traveller-1.jpg",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\ui\\assets\\traveller-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\assets\\traveller-2.jpg",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\assets\\traveller-2.jpg",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "ui/assets/traveller-2.jpg",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\ui\\assets\\traveller-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\assets\\traveller-3.jpg",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\assets\\traveller-3.jpg",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "ui/assets/traveller-3.jpg",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\ui\\assets\\traveller-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\assets\\traveller-4.jpg",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\assets\\traveller-4.jpg",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "ui/assets/traveller-4.jpg",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\ui\\assets\\traveller-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\index.html",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\index.html",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "ui/index.html",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\ui\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\README.md",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\README.md",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "ui/README.md",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\ui\\README.md"
     },
     {
-      "Identity": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\styles.css",
+      "Identity": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\ui\\styles.css",
       "SourceId": "AirplaneSeatReservation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eren\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\AirplaneSeatReservation\\AirplaneSeatReservation\\wwwroot\\",
       "BasePath": "_content/AirplaneSeatReservation",
       "RelativePath": "ui/styles.css",
       "AssetKind": "All",

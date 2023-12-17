@@ -9,117 +9,117 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AirplaneSeatReservation
 build_property.RootNamespace = AirplaneSeatReservation
-build_property.ProjectDir = C:\Users\Eren\Desktop\AirplaneSeatReservation\AirplaneSeatReservation\
+build_property.ProjectDir = C:\Users\user\Desktop\AirplaneSeatReservation\AirplaneSeatReservation\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Eren\Desktop\AirplaneSeatReservation\AirplaneSeatReservation
+build_property.MSBuildProjectDirectory = C:\Users\user\Desktop\AirplaneSeatReservation\AirplaneSeatReservation
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Eren/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Admin/Aircraft.cshtml]
+[C:/Users/user/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Admin/Aircraft.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWlyY3JhZnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eren/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Admin/Flight.cshtml]
+[C:/Users/user/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Admin/Flight.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRmxpZ2h0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eren/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Admin/Index.cshtml]
+[C:/Users/user/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eren/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Admin/Reservation.cshtml]
+[C:/Users/user/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Admin/Reservation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmVzZXJ2YXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eren/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Admin/Route.cshtml]
+[C:/Users/user/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Admin/Route.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUm91dGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eren/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Admin/Users.cshtml]
+[C:/Users/user/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Admin/Users.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eren/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Home/Index.cshtml]
+[C:/Users/user/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eren/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Home/Privacy.cshtml]
+[C:/Users/user/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eren/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Shared/Error.cshtml]
+[C:/Users/user/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eren/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Shared/_AddAircraftLayout.cshtml]
+[C:/Users/user/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Shared/_AddAircraftLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZGRBaXJjcmFmdExheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eren/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Shared/_AddFlightLayout.cshtml]
+[C:/Users/user/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Shared/_AddFlightLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZGRGbGlnaHRMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eren/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Shared/_AddRouteLayout.cshtml]
+[C:/Users/user/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Shared/_AddRouteLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZGRSb3V0ZUxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eren/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Shared/_AdminPanelLayout.cshtml]
+[C:/Users/user/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Shared/_AdminPanelLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pblBhbmVsTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eren/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Shared/_HomePageLayout.cshtml]
+[C:/Users/user/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Shared/_HomePageLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ib21lUGFnZUxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eren/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Shared/_LoginLayout.cshtml]
+[C:/Users/user/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Shared/_LoginLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eren/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Shared/_RegisterLayout.cshtml]
+[C:/Users/user/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Shared/_RegisterLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9SZWdpc3RlckxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eren/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Shared/_ReservationsLayout.cshtml]
+[C:/Users/user/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Shared/_ReservationsLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9SZXNlcnZhdGlvbnNMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eren/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Shared/_UsersLayout.cshtml]
+[C:/Users/user/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Shared/_UsersLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Vc2Vyc0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eren/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/user/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eren/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Shared/_WelcomeLayout.cshtml]
+[C:/Users/user/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Shared/_WelcomeLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9XZWxjb21lTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eren/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/User/Homepage.cshtml]
+[C:/Users/user/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/User/Homepage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxIb21lcGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eren/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/User/Login.cshtml]
+[C:/Users/user/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eren/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/User/Register.cshtml]
+[C:/Users/user/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/User/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eren/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/User/Welcome.cshtml]
+[C:/Users/user/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/User/Welcome.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxXZWxjb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eren/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/_ViewImports.cshtml]
+[C:/Users/user/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eren/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/_ViewStart.cshtml]
+[C:/Users/user/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eren/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Shared/_Layout.cshtml]
+[C:/Users/user/Desktop/AirplaneSeatReservation/AirplaneSeatReservation/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-asd9de49ij

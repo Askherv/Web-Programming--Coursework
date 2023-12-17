@@ -1,4 +1,5 @@
-﻿<!DOCTYPE HTML>
+﻿@model AirplaneSeatReservation.Models.Flight
+<!DOCTYPE HTML>
 <html>
 <head>
 	<meta name="viewport" content="width=device-width" />
@@ -247,13 +248,14 @@
 						<div class="booking__nav">
 							<span>Uçuş Bilgileri</span>
 						</div>
-						<form>
+						<p style="color:red;">@ViewBag.error</p>
+						<form action="Flight" method="post">
 							<div class="form__group">
 								<span><i class="ri-flight-takeoff-line"></i></span>
 								<div class="input__content">
 									<p>Uçak No</p>
 									<div class="input__group">
-										<input type="text" />
+										<input type="text" asp-for="AircraftID" />
 									</div>
 								</div>
 							</div>
@@ -262,11 +264,11 @@
 								<div class="input__content">
 									<p>Güzergah No</p>
 									<div class="input__group">
-										<input type="text" />
+										<input type="text" asp-for="ItineraryID" />
 									</div>
 								</div>
 							</div>
-							<button class="btn3">Ekle</i></button>
+							<button class="btn3">Ekle</button>
 						</form>
 					</section>
 				</div>

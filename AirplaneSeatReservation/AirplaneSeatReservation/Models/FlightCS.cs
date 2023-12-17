@@ -17,8 +17,8 @@ namespace AirplaneSeatReservation.Models
         public DbSet<Passenger> Passengers { get; set; }
         public DbSet<Admin> Admins { get; set; }
         public DbSet<Aircraft> Aircrafts { get; set; }
-		public DbSet<Route> Routes { get; set; }
-		public DbSet<Flight> Flights { get; set; }
+        public DbSet<Itinerary> Itineraries { get; set; }
+        public DbSet<Flight> Flights { get; set; }
 		public DbSet<Reservation> Reservations { get; set; }
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
