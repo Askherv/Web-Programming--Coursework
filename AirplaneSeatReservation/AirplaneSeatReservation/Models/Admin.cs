@@ -7,7 +7,7 @@ namespace AirplaneSeatReservation.Models
         public class Admin
     {
         [Key]
-        public Guid AdminID { get; set; }
+        public int AdminID { get; set; }
 
         [Required(ErrorMessage = "Email adresi boş bırakılamaz!")]
         [Display(Name = "Email")]

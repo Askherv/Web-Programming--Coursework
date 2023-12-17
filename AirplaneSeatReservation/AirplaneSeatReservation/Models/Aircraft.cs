@@ -7,7 +7,7 @@ namespace AirplaneSeatReservation.Models
 	public class Aircraft
 	{
 		[Key]
-		public Guid AircraftID { get; set; }
+		public int AircraftID { get; set; }
 		public string? AircraftModel { get; set; }
 		public int AircraftSeats { get; set; }
 
