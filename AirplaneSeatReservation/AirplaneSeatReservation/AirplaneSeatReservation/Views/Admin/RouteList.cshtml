@@ -1,0 +1,73 @@
+﻿@model List<AirplaneSeatReservation.Models.Itinerary>
+@{
+    ViewData["Title"] = "RouteList";
+    Layout = "~/Views/Shared/_AdminPanelLayout.cshtml";
+}
+
+<div id="page-wrapper">
+	<div class="main-page">
+		<h3 class="title1">Tüm Güzergahlar</h3>
+		<div class="blank-page widget-shadow scroll" id="style-2 div1">
+			<section class="section__container booking__container">
+				<div class="booking__nav">
+					<span>Güzergah Bilgileri</span>
+				</div>
+				<style>
+					table {
+						border-collapse: collapse;
+						width: 100%;
+						margin-top: 20px;
+					}
+
+					th, td {
+						border: 1px solid #dddddd;
+						text-align: left;
+						padding: 8px;
+					}
+
+					th {
+						background-color: #f2f2f2;
+					}
+
+					tr:nth-child(even) {
+						background-color: #f9f9f9;
+					}
+
+					tr:hover {
+						background-color: #e0e0e0;
+					}
+				</style>
+				<table border="1">
+					<thead>
+						<tr>
+							<td>Güzergah No</td>
+							<td>Kalkış Şehri</td>
+							<td>Kalkış Havaalanı</td>
+							<td>Varış Şehri</td>
+							<td>Varış Havaalanı</td>
+							<td>Kalkış Tarihi</td>
+							<td>Kalkış Saati</td>
+						</tr>
+					</thead>
+					<tbody>
+						@if(Model != null)
+						{
+							@foreach (var itinerary in Model)
+							{
+								<tr>
+									<td>@itinerary.ItineraryID</td>
+									<td>@itinerary.DepartureCity</td>
+									<td>@itinerary.DepartureAirport</td>
+									<td>@itinerary.ArrivalCity</td>
+									<td>@itinerary.ArrivalAirport</td>
+									<td>@itinerary.DepartureDate</td>
+									<td>@itinerary.DepartureTime</td>
+								</tr>
+							}
+						}
+					</tbody>
+				</table>
+			</section>
+		</div>
+	</div>
+</div>
