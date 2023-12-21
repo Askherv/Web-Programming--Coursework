@@ -1,8 +1,11 @@
 ﻿using AirplaneSeatReservation.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace AirplaneSeatReservation.Controllers
 {
+	[Authorize(Roles ="Admin")]
 	public class AdminController : Controller
 	{
         private readonly FlightCS flightCS;
@@ -45,6 +48,13 @@ namespace AirplaneSeatReservation.Controllers
         }
 
         [HttpGet]
+        public async Task<IActionResult> AircraftList()
+        {
+			var aircrafts = await flightCS.Aircrafts.ToListAsync();
+			return View(aircrafts);
+		}
+
+		[HttpGet]
         public IActionResult Flight()
         {
             return View();
@@ -53,13 +63,22 @@ namespace AirplaneSeatReservation.Controllers
         [HttpPost]
         public async Task<IActionResult> Flight(Flight  addFlight, int aircraftID, int itineraryID)
         {
-            var aircraftExists = flightCS.Aircrafts.Any(x => x.AircraftID == aircraftID);
-            var itineraryExists = flightCS.Itineraries.Any(x => x.ItineraryID == itineraryID);
-            if(!aircraftExists || !itineraryExists)
+            var aircraftDontExists = flightCS.Aircrafts.Any(x => x.AircraftID == aircraftID);
+            var itineraryDontExists = flightCS.Itineraries.Any(x => x.ItineraryID == itineraryID);
+            if(!aircraftDontExists || !itineraryDontExists)
             {
                 ViewBag.error = "Kayıtlı uçak no veya güzergah no bulunamadı!";
                 return View();
             }
+
+            var aircraftExists = flightCS.Flights.Any(x => x.AircraftID == aircraftID);
+            var itineraryExists = flightCS.Flights.Any(x => x.ItineraryID == itineraryID);
+            if (aircraftExists && itineraryExists)
+            {
+                ViewBag.error = "Böyle bir uçuş zaten kayıtlı!";
+                return View();
+            }
+
             var flight = new Flight()
             {
                 FlightID = addFlight.FlightID,
@@ -72,6 +91,13 @@ namespace AirplaneSeatReservation.Controllers
             ViewBag.correct = "Uçuş başarıyla eklendi!";
             return View("Flight");
         }
+
+        [HttpGet]
+        public async Task<IActionResult> FlightList()
+        {
+			var flights = await flightCS.Flights.ToListAsync();
+			return View(flights);
+		}
 
         [HttpGet]
         public IActionResult Route()
@@ -110,14 +136,23 @@ namespace AirplaneSeatReservation.Controllers
             return View("Route");
         }
 
+        [HttpGet]
+        public async Task<IActionResult> RouteList()
+        {
+			var itineraries = await flightCS.Itineraries.ToListAsync();
+			return View(itineraries);
+		}
+
         public IActionResult Reservation()
         {
             return View();
         }
 
-        public IActionResult Users()
+        [HttpGet]
+        public async Task<IActionResult> Users()
         {
-            return View();
+            var users = await flightCS.UserAccounts.ToListAsync();
+            return View(users);
         }
 
     }
