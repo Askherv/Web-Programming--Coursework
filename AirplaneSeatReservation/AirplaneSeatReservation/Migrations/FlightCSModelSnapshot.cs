@@ -39,6 +39,9 @@ namespace AirplaneSeatReservation.Migrations
                         .HasMaxLength(15)
                         .HasColumnType("nvarchar(15)");
 
+                    b.Property<string>("Role")
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("AdminID");
 
                     b.ToTable("Admin");
@@ -209,6 +212,9 @@ namespace AirplaneSeatReservation.Migrations
                         .IsRequired()
                         .HasMaxLength(15)
                         .HasColumnType("nvarchar(15)");
+
+                    b.Property<string>("Role")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("UserAccountID");
 
