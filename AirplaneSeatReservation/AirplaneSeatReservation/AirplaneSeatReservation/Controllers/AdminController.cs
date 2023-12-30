@@ -1,9 +1,11 @@
 ﻿using AirplaneSeatReservation.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace AirplaneSeatReservation.Controllers
 {
+	[Authorize(Roles = "Admin")]
 	public class AdminController : Controller
 	{
         private readonly FlightCS flightCS;
@@ -12,12 +14,13 @@ namespace AirplaneSeatReservation.Controllers
         {
             this.flightCS = flightCS;
         }
-        public IActionResult Index()
+
+		public IActionResult Index()
 		{
 			return View();
 		}
 
-        [HttpGet]
+		[HttpGet]
         public IActionResult Aircraft()
         {
             return View();
@@ -61,13 +64,22 @@ namespace AirplaneSeatReservation.Controllers
         [HttpPost]
         public async Task<IActionResult> Flight(Flight  addFlight, int aircraftID, int itineraryID)
         {
-            var aircraftExists = flightCS.Aircrafts.Any(x => x.AircraftID == aircraftID);
-            var itineraryExists = flightCS.Itineraries.Any(x => x.ItineraryID == itineraryID);
-            if(!aircraftExists || !itineraryExists)
+            var aircraftDontExists = flightCS.Aircrafts.Any(x => x.AircraftID == aircraftID);
+            var itineraryDontExists = flightCS.Itineraries.Any(x => x.ItineraryID == itineraryID);
+            if(!aircraftDontExists || !itineraryDontExists)
             {
                 ViewBag.error = "Kayıtlı uçak no veya güzergah no bulunamadı!";
                 return View();
             }
+
+            var aircraftExists = flightCS.Flights.Any(x => x.AircraftID == aircraftID);
+            var itineraryExists = flightCS.Flights.Any(x => x.ItineraryID == itineraryID);
+            if (aircraftExists && itineraryExists)
+            {
+                ViewBag.error = "Böyle bir uçuş zaten kayıtlı!";
+                return View();
+            }
+
             var flight = new Flight()
             {
                 FlightID = addFlight.FlightID,
@@ -132,9 +144,11 @@ namespace AirplaneSeatReservation.Controllers
 			return View(itineraries);
 		}
 
-        public IActionResult Reservation()
+        [HttpGet]
+        public async Task<IActionResult> Reservation()
         {
-            return View();
+            var reservations = await flightCS.Reservations.ToListAsync();
+            return View(reservations);
         }
 
         [HttpGet]

@@ -30,14 +30,17 @@ namespace AirplaneSeatReservation.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AdminID"));
 
-                    b.Property<string>("AdminEmail")
+                    b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("AdminPassword")
+                    b.Property<string>("Password")
                         .IsRequired()
                         .HasMaxLength(15)
                         .HasColumnType("nvarchar(15)");
+
+                    b.Property<string>("Role")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("AdminID");
 
@@ -117,42 +120,6 @@ namespace AirplaneSeatReservation.Migrations
                     b.ToTable("Itinerary");
                 });
 
-            modelBuilder.Entity("AirplaneSeatReservation.Models.Passenger", b =>
-                {
-                    b.Property<int>("PassengerID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PassengerID"));
-
-                    b.Property<DateTime?>("PassengerBirthDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("PassengerEmail")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PassengerGender")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PassengerName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PassengerPhone")
-                        .IsRequired()
-                        .HasMaxLength(10)
-                        .HasColumnType("nvarchar(10)");
-
-                    b.Property<string>("PassengerSurname")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("PassengerID");
-
-                    b.ToTable("Passengers");
-                });
-
             modelBuilder.Entity("AirplaneSeatReservation.Models.Reservation", b =>
                 {
                     b.Property<int>("ReservationID")
@@ -161,21 +128,37 @@ namespace AirplaneSeatReservation.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ReservationID"));
 
-                    b.Property<int>("FlightID")
-                        .HasColumnType("int");
-
-                    b.Property<int>("PassengerID")
-                        .HasColumnType("int");
-
-                    b.Property<string>("SeatNumber")
-                        .IsRequired()
+                    b.Property<string>("ArrivalCity")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("DepartureCity")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DepartureDate")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PassengerBirthDate")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PassengerEmail")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PassengerGender")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PassengerName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PassengerPassportNo")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PassengerSurname")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("SeatNo")
+                        .HasColumnType("int");
+
                     b.HasKey("ReservationID");
-
-                    b.HasIndex("FlightID");
-
-                    b.HasIndex("PassengerID");
 
                     b.ToTable("Reservation");
                 });
@@ -210,6 +193,9 @@ namespace AirplaneSeatReservation.Migrations
                         .HasMaxLength(15)
                         .HasColumnType("nvarchar(15)");
 
+                    b.Property<string>("Role")
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("UserAccountID");
 
                     b.ToTable("UserAccount");
@@ -232,25 +218,6 @@ namespace AirplaneSeatReservation.Migrations
                     b.Navigation("Aircraft");
 
                     b.Navigation("Itinerary");
-                });
-
-            modelBuilder.Entity("AirplaneSeatReservation.Models.Reservation", b =>
-                {
-                    b.HasOne("AirplaneSeatReservation.Models.Flight", "Flight")
-                        .WithMany()
-                        .HasForeignKey("FlightID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("AirplaneSeatReservation.Models.Passenger", "Passenger")
-                        .WithMany()
-                        .HasForeignKey("PassengerID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Flight");
-
-                    b.Navigation("Passenger");
                 });
 #pragma warning restore 612, 618
         }

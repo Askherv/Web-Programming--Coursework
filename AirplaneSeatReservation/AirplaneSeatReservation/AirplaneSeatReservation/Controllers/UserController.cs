@@ -1,5 +1,10 @@
 ﻿using AirplaneSeatReservation.Models;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 
 namespace AirplaneSeatReservation.Controllers
 {
@@ -27,6 +32,12 @@ namespace AirplaneSeatReservation.Controllers
                 return View();
             }
 
+            if (addUser.Password != addUser.CPassword)
+            {
+                ViewBag.error = "Şifreler eşleşmiyor!";
+                return View();
+            }
+
             var user = new UserAccount()
 			{
 				UserAccountID = addUser.UserAccountID,
@@ -44,36 +55,54 @@ namespace AirplaneSeatReservation.Controllers
 			return View("Register");
 		}
 
-        public IActionResult Login()
+		[HttpGet]
+		public IActionResult Login()
         {
             return View();
         }
 
 		[HttpPost]
-        public IActionResult Login(UserAccount addUser)
-        {
-			var check = flightCS.UserAccounts.Where(x=>x.Email==addUser.Email && x.Password == addUser.Password).FirstOrDefault();
+		public async Task<IActionResult> Login(UserAccount addUser)
+		{
+			var check = flightCS.UserAccounts.Where(x => x.Email == addUser.Email && x.Password == addUser.Password).FirstOrDefault();
 			if (check != null)
 			{
+				if (check.Email.ToLower() == "b211210554@gmail.com" || check.Email.ToLower() == "b211210002@gmail.com")
+				{
+					check.Role = "Admin";
+				}
+				else
+				{
+					check.Role = "Ui";
+				}
+				var claims = new List<Claim>
+				{
+					new Claim(ClaimTypes.Name, check.FirstName + " " + check.LastName),
+					new Claim(ClaimTypes.Role, "Ui"),
+					new Claim(ClaimTypes.Role, "Admin"),
+				};
+
+				var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+				var authProperties = new AuthenticationProperties();
+
+				await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
+				new ClaimsPrincipal(claimsIdentity), authProperties);
+
 				HttpContext.Session.SetString("username", check.FirstName + " " + check.LastName);
 				var name = HttpContext.Session.GetString("username");
 				ViewBag.username = name;
-				return View("Welcome");
+
+				if (check.Role == "Ui")
+				{
+					return RedirectToAction("Welcome", "Main");
+				}
+				else if (check.Role == "Admin")
+				{
+					return RedirectToAction("Index", "Admin");
+				}
 			}
 			ViewBag.error = "Kayıtlı kullanıcı bulunamadı!";
-            return View();
-        }
-
-        public IActionResult Homepage()
-        {
-            return View();
-        }
-
-        public IActionResult Welcome()
-        {
-            var name = HttpContext.Session.GetString("username");
-            ViewBag.username = name;
-            return View();
-        }
-    }
+			return View();
+		}
+	}
 }

@@ -12,14 +12,24 @@
     <nav>
         <div class="nav__logo">Sakura Airlines</div>
         <ul class="nav__links">
-            <li class="link"><a href="#">Anasayfa</a></li>
-            <li class="link"><a href="#">Hakkımızda</a></li>
-            <li class="link"><a href="#">Teklifler</a></li>
-            <li class="link"><a href="#">Koltuklar</a></li>
-            <li class="link"><a href="#">Destinasyonlar</a></li>
+            <li class="link"><a href="#">@_localization.Getkey("Anasayfa").Value</a></li>
+            <li class="link"><a href="#">@_localization.Getkey("Hakkımızda").Value</a></li>
+            <li class="link"><a href="#">@_localization.Getkey("Teklifler").Value</a></li>
+            <li class="link"><a href="#">@_localization.Getkey("Koltuklar").Value</a></li>
+            <li class="link"><a href="#">@_localization.Getkey("Destinasyonlar").Value</a></li>
         </ul>
-        <button class="btn" onclick="redirectToLoginPage('/User/Login')">Giriş Yap</button>
-        <button class="btn2" onclick="redirectToLoginPage('/User/Register')">Kaydol</button>
+        <button class="btn" onclick="redirectToLoginPage('/User/Login')">@_localization.Getkey("Giriş Yap").Value</button>
+        <button class="btn2" onclick="redirectToLoginPage('/User/Register')">@_localization.Getkey("Kaydol").Value</button>
+        <div>
+            <ul>
+                <li>
+                    <a asp-controller="Main" asp-action="Changelanguage" asp-route-culture = "en-US"><i class="flag-icon flag-icon-gb"></i>En</a>
+                </li>
+                <li>
+                    <a asp-controller="Main" asp-action="Changelanguage" asp-route-culture="tr-TR"><i class="flag-icon flag-icon-gb"></i>Tr</a>
+                </li>
+            </ul>
+        </div>
         <script>
             function redirectToLoginPage(page) {
                 window.location.href = page;
@@ -27,76 +37,33 @@
         </script>
     </nav>
     <header class="section__container header__container">
-        <h1 class="section__header">Hayat Çok Kısa<br />Dünya Çok Geniş</h1>
+        <h1 class="section__header">@_localization.Getkey("Hayat Çok Kısa").Value<br />@_localization.Getkey("Dünya Çok Geniş").Value</h1>
     </header>
-
-    <section class="section__container booking__container">
-        <div class="booking__nav">
-            <span>Ekonomi Sınıfı</span>
-        </div>
-        <form>
-            <div class="form__group">
-                <span><i class="ri-flight-takeoff-line"></i></span>
-                <div class="input__content">
-                    <p>Nereden</p>
-                    <div class="input__group">
-                        <input type="text" />
-                    </div>
-                </div>
-            </div>
-            <div class="form__group">
-                <span><i class="ri-flight-land-line"></i></span>
-                <div class="input__content">
-                    <p>Nereye</p>
-                    <div class="input__group">
-                        <input type="text" />
-                    </div>
-                </div>
-            </div>
-            <div class="form__group">
-                <span><i class="ri-calendar-line"></i></span>
-                <div class="input__content">
-                    <p>Gidiş Tarihi</p>
-                    <div class="input__group">
-                        <input type="text" />
-                    </div>
-                </div>
-            </div>
-            <div class="form__group">
-                <span><i class="ri-calendar-line"></i></span>
-                <div class="input__content">
-                    <p>Dönüş Tarihi</p>
-                    <div class="input__group">
-                        <input type="text" />
-                    </div>
-                </div>
-            </div>
-            <button class="btn3"><i class="ri-search-line"></i></button>
-        </form>
-    </section>
-
+    <div>
+        @RenderBody()
+    </div>
     <section class="section__container plan__container">
-        <p class="subheader">Seyahat Desteği</p>
-        <h2 class="section__header">Yolculuğunu güvenle planla</h2>
+        <p class="subheader">@_localization.Getkey("Seyahat Desteği").Value</p>
+        <h2 class="section__header">@_localization.Getkey("Yolculuğunu güvenle planla").Value</h2>
         <p class="description">
-            Rezervasyonlarınız ve seyahat planlarınızla ilgili bize ulaşın ve yolculuğunuz boyunca sizi nelerin bekleyeceğini görün.
+            @_localization.Getkey("Rezervasyonlarınız ve seyahat planlarınızla ilgili bize ulaşın ve yolculuğunuz boyunca sizi nelerin bekleyeceğini görün.").Value
         </p>
         <div class="plan__grid">
             <div class="plan__content">
                 <span class="number">01</span>
-                <h4>Dubai için Seyahat Gereksinimleri</h4>
+                <h4>@_localization.Getkey("Dubai için Seyahat Gereksinimleri").Value</h4>
                 <p>
-                    Bu güzel şehirde güzel zaman geçirmek için gerekli seyahat gereksinimleriyle ilgili bilgi edinin.
+                    @_localization.Getkey(" Bu güzel şehirde güzel zaman geçirmek için gerekli seyahat gereksinimleriyle ilgili bilgi edinin.").Value
                 </p>
                 <span class="number">02</span>
-                <h4>Sağlık Sigortası</h4>
+                <h4>@_localization.Getkey("Sağlık Sigortası").Value</h4>
                 <p>
-                    Güvenli bir yolculuk için sağlık sigortası yaptırmayı unutmayın.
+                    @_localization.Getkey("Güvenli bir yolculuk için sağlık sigortası yaptırmayı unutmayın.").Value
                 </p>
                 <span class="number">03</span>
-                <h4>Destinasyonlara göre seyahat gereksinimleri.</h4>
+                <h4>@_localization.Getkey("Destinasyonlara göre seyahat gereksinimleri.").Value</h4>
                 <p>
-                    Daha fazla bilgi için bizi takip edin.
+                    @_localization.Getkey("Daha fazla bilgi için bizi takip edin.").Value
                 </p>
             </div>
             <div class="plan__image">
@@ -111,12 +78,12 @@
             <div class="footer__col">
                 <h3>Sakura Airlines</h3>
                 <p>
-                    Güleryüzlü ekşpler ve son model uçaklarla,
-                    Güvenli, konforlu ve unutulmaz deneyimler sağlıyoruz.
+                    @_localization.Getkey("Güleryüzlü ekipler ve son model uçaklarla,").Value
+                    @_localization.Getkey("Güvenli, konforlu ve unutulmaz deneyimler sağlıyoruz.").Value
                 </p>
             </div>
             <div class="footer__col">
-                <h4>İletişim</h4>
+                <h4>@_localization.Getkey("İletişim").Value</h4>
                 <p>+90 (552) 802 5995</p>
                 <p>+90 (544) 426 2669</p>
                 <p>nihad.asgarov@ogr.sakarya.edu.tr</p>
@@ -130,9 +97,6 @@
                 <span><i class="ri-twitter-fill"></i></span>
                 <span><i class="ri-instagram-line"></i></span>
                 <span><i class="ri-youtube-fill"></i></span>
-            </div>
-            <div>
-                @RenderBody()
             </div>
         </div>
     </footer>
