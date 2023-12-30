@@ -34,5 +34,6 @@ namespace AirplaneSeatReservation.Models
 		[DataType(DataType.Password)]
 		[MinLength(6, ErrorMessage = "Şifreniz en az 6 karakterden oluşmalı!"), MaxLength(15, ErrorMessage = "Şifreniz en fazla 15 karakterden oluşmalı!")]
 		public string? CPassword { get; set; }
-    }
+		public string? Role { get; internal set; }
+	}
 }
