@@ -12,13 +12,13 @@ namespace AirplaneSeatReservation.Models
         [Required(ErrorMessage = "Email adresi boş bırakılamaz!")]
         [Display(Name = "Email")]
         [DataType(DataType.EmailAddress)]
-        public string? AdminEmail { get; set; }
+        public string? Email { get; set; }
 
         [Required(ErrorMessage = "Şifre boş bırakılamaz!")]
         [Display(Name = "Şifre")]
         [DataType(DataType.Password)]
         [MinLength(6, ErrorMessage = "Şifreniz en az 6 karakterden oluşmalı!"), MaxLength(15, ErrorMessage = "Şifreniz en fazla 15 karakterden oluşmalı!")]
-        public string? AdminPassword { get; set; }
+        public string? Password { get; set; }
 		public string? Role { get; internal set; }
 	}
  }

@@ -9,8 +9,6 @@ namespace AirplaneSeatReservation.Controllers
 		{
 			return View();
 		}
-
-		[Authorize(Roles = "Ui")]
 		public IActionResult Welcome()
 		{
 			var name = HttpContext.Session.GetString("username");

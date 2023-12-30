@@ -225,22 +225,16 @@
 				<div class="profile_details">
 					<ul>
 						<li class="dropdown profile_details_drop">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-								<div class="profile_img">
-									<div class="user-name">
-										<p>Nihad Asgarov</p>
-										<span>Yönetici</span>
-									</div>
-									<i class="fa fa-angle-down lnr"></i>
-									<i class="fa fa-angle-up lnr"></i>
-									<div class="clearfix"></div>
-								</div>
-							</a>
-							<ul class="dropdown-menu drp-mnu">
-								<li> <a href="#"><i class="fa fa-cog"></i> Ayarlar</a> </li>
-								<li> <a href="#"><i class="fa fa-user"></i> Profil</a> </li>
-								<li> <a href="#"><i class="fa fa-sign-out"></i> Çıkış</a> </li>
-							</ul>
+							<p style="color: white;">Hoş Geldiniz, <br /> @ViewBag.username</p>
+							@if (ViewBag.username != "")
+							{
+								<button class="btn2" onclick="redirectToHomePage('/User/Login')">Çıkış Yap</button>
+							}
+							<script>
+								function redirectToHomePage(page) {
+									window.location.href = page;
+								}
+							</script>
 						</li>
 					</ul>
 				</div>

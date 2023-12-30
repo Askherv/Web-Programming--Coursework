@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 
 namespace AirplaneSeatReservation.Controllers
@@ -54,15 +55,17 @@ namespace AirplaneSeatReservation.Controllers
 			return View("Register");
 		}
 
-        public IActionResult Login()
+		[HttpGet]
+		public IActionResult Login()
         {
             return View();
         }
 
 		[HttpPost]
-        public async Task<IActionResult> Login(UserAccount addUser)
-        {
-			var check = flightCS.UserAccounts.Where(x=>x.Email==addUser.Email && x.Password == addUser.Password).FirstOrDefault();
+		public async Task<IActionResult> Login(UserAccount addUser)
+		{
+			var check = flightCS.UserAccounts.FirstOrDefault(x => x.Email == addUser.Email && x.Password == addUser.Password);
+
 			if (check != null)
 			{
 				if (check.Email.ToLower() == "askhervn@gmail.com")
@@ -73,11 +76,11 @@ namespace AirplaneSeatReservation.Controllers
 				{
 					check.Role = "Ui";
 				}
+
 				var claims = new List<Claim>
 				{
 					new Claim(ClaimTypes.Name, check.FirstName + " " + check.LastName),
-					new Claim(ClaimTypes.Role, "Ui"),
-					new Claim(ClaimTypes.Role, "Admin"),
+					new Claim(ClaimTypes.Role, check.Role)
 				};
 
 				var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
@@ -99,8 +102,9 @@ namespace AirplaneSeatReservation.Controllers
 					return RedirectToAction("Index", "Admin");
 				}
 			}
+
 			ViewBag.error = "Kayıtlı kullanıcı bulunamadı!";
-            return View();
-        }
+			return View();
+		}
 	}
 }

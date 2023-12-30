@@ -1,24 +1,10 @@
 using AirplaneSeatReservation.Models;
-using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
-using ServiceStack;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options =>
-{
-	options.Cookie.Name = "NetCoreMvc.Auth";
-	options.LoginPath = "/User/Login";
-	options.AccessDeniedPath = "/User/Login";
-});
-
-builder.Services.AddAuthorization(options =>
-{
-	options.AddPolicy("RequireAdminRole", policy => policy.RequireRole("Admin"));
-	options.AddPolicy("RequireUiRole", policy => policy.RequireRole("Ui"));
-});
 builder.Services.AddDbContext<FlightCS>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddSession();
 

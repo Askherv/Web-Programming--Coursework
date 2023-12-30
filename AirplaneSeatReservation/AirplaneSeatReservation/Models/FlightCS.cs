@@ -9,6 +9,10 @@ namespace AirplaneSeatReservation.Models
 	{
 		private readonly IConfiguration _configuration;
 
+		public FlightCS()
+		{
+		}
+
 		public FlightCS(IConfiguration configuration)
 		{
 			_configuration = configuration;
