@@ -20,6 +20,14 @@
         },
         "runtime": {
           "AirplaneSeatReservation.dll": {}
+        },
+        "resources": {
+          "en-US/AirplaneSeatReservation.resources.dll": {
+            "locale": "en-US"
+          },
+          "tr-TR/AirplaneSeatReservation.resources.dll": {
+            "locale": "tr-TR"
+          }
         }
       },
       "Auth0.AspNetCore.Authentication/1.4.0": {

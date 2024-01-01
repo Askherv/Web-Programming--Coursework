@@ -64,11 +64,10 @@ namespace AirplaneSeatReservation.Controllers
 		[HttpPost]
 		public async Task<IActionResult> Login(UserAccount addUser)
 		{
-			var check = flightCS.UserAccounts.FirstOrDefault(x => x.Email == addUser.Email && x.Password == addUser.Password);
-
+			var check = flightCS.UserAccounts.Where(x => x.Email == addUser.Email && x.Password == addUser.Password).FirstOrDefault();
 			if (check != null)
 			{
-				if (check.Email.ToLower() == "askhervn@gmail.com")
+				if (check.Email.ToLower() == "b211210554@sakarya.edu.tr" || check.Email.ToLower() == "b211210002@sakarya.edu.tr")
 				{
 					check.Role = "Admin";
 				}
@@ -76,11 +75,11 @@ namespace AirplaneSeatReservation.Controllers
 				{
 					check.Role = "Ui";
 				}
-
 				var claims = new List<Claim>
 				{
 					new Claim(ClaimTypes.Name, check.FirstName + " " + check.LastName),
-					new Claim(ClaimTypes.Role, check.Role)
+					new Claim(ClaimTypes.Role, "Ui"),
+					new Claim(ClaimTypes.Role, "Admin"),
 				};
 
 				var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
@@ -102,7 +101,6 @@ namespace AirplaneSeatReservation.Controllers
 					return RedirectToAction("Index", "Admin");
 				}
 			}
-
 			ViewBag.error = "Kayıtlı kullanıcı bulunamadı!";
 			return View();
 		}

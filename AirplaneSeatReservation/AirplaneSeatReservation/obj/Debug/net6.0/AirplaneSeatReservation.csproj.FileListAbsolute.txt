@@ -560,3 +560,10 @@ C:\Users\user\Desktop\a\AirplaneSeatReservation\obj\Debug\net6.0\refint\Airplane
 C:\Users\user\Desktop\a\AirplaneSeatReservation\obj\Debug\net6.0\AirplaneSeatReservation.pdb
 C:\Users\user\Desktop\a\AirplaneSeatReservation\obj\Debug\net6.0\AirplaneSeatReservation.genruntimeconfig.cache
 C:\Users\user\Desktop\a\AirplaneSeatReservation\obj\Debug\net6.0\ref\AirplaneSeatReservation.dll
+C:\Users\user\Desktop\AirplaneSeatReservation\AirplaneSeatReservation\bin\Debug\net6.0\en-US\AirplaneSeatReservation.resources.dll
+C:\Users\user\Desktop\AirplaneSeatReservation\AirplaneSeatReservation\bin\Debug\net6.0\tr-TR\AirplaneSeatReservation.resources.dll
+C:\Users\user\Desktop\AirplaneSeatReservation\AirplaneSeatReservation\obj\Debug\net6.0\AirplaneSeatReservation.Resources.SharedResource.en-US.resources
+C:\Users\user\Desktop\AirplaneSeatReservation\AirplaneSeatReservation\obj\Debug\net6.0\AirplaneSeatReservation.Resources.SharedResource.tr-TR.resources
+C:\Users\user\Desktop\AirplaneSeatReservation\AirplaneSeatReservation\obj\Debug\net6.0\AirplaneSeatReservation.csproj.GenerateResource.cache
+C:\Users\user\Desktop\AirplaneSeatReservation\AirplaneSeatReservation\obj\Debug\net6.0\en-US\AirplaneSeatReservation.resources.dll
+C:\Users\user\Desktop\AirplaneSeatReservation\AirplaneSeatReservation\obj\Debug\net6.0\tr-TR\AirplaneSeatReservation.resources.dll

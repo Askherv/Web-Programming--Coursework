@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AirplaneSeatReservation.Controllers
 {
-	
+	[Authorize(Roles = "Admin")]
 	public class AdminController : Controller
 	{
         private readonly FlightCS flightCS;
@@ -14,9 +14,12 @@ namespace AirplaneSeatReservation.Controllers
         {
             this.flightCS = flightCS;
         }
+
 		public IActionResult Index()
 		{
-			return View();
+            var name = HttpContext.Session.GetString("username");
+            ViewBag.username = name;
+            return View();
 		}
 
 		[HttpGet]
@@ -143,9 +146,11 @@ namespace AirplaneSeatReservation.Controllers
 			return View(itineraries);
 		}
 
-        public IActionResult Reservation()
+        [HttpGet]
+        public async Task<IActionResult> Reservation()
         {
-            return View();
+            var reservations = await flightCS.Reservations.ToListAsync();
+            return View(reservations);
         }
 
         [HttpGet]

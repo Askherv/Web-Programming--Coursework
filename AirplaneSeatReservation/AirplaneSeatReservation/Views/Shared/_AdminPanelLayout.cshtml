@@ -32,31 +32,31 @@
 				<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
 					<ul class="nav" id="side-menu">
 						<li>
-							<a href="Index"><i class="fa fa-home nav_icon"></i>Yönetici Paneli</a>
+							<a href="/Admin/Index"><i class="fa fa-home nav_icon"></i>Yönetici Paneli</a>
 						</li>
 						<li>
-							<a href="Aircraft"><i class="fa fa-plane nav_icon"></i>Uçaklar</a>
+							<a href="/Admin/Aircraft"><i class="fa fa-plane nav_icon"></i>Uçaklar</a>
 						</li>
 						<li>
-							<a href="AircraftList"><i class="fa fa-plane nav_icon"></i>Uçak Detayları</a>
+							<a href="/Admin/AircraftList"><i class="fa fa-plane nav_icon"></i>Uçak Detayları</a>
 						</li>
 						<li class="">
-							<a href="Flight"><i class="fa fa-plane nav_icon"></i>Uçuşlar</a>
+							<a href="/Admin/Flight"><i class="fa fa-plane nav_icon"></i>Uçuşlar</a>
 						</li>
 						<li class="">
-							<a href="FlightList"><i class="fa fa-plane nav_icon"></i>Uçuş Detayları</a>
+							<a href="/Admin/FlightList"><i class="fa fa-plane nav_icon"></i>Uçuş Detayları</a>
 						</li>
 						<li>
-							<a href="Route"><i class="fa fa-plane nav_icon"></i>Güzergahlar</a>
+							<a href="/Admin/Route"><i class="fa fa-plane nav_icon"></i>Güzergahlar</a>
 						</li>
 						<li>
-							<a href="RouteList"><i class="fa fa-plane nav_icon"></i>Güzergah Detayları</a>
+							<a href="/Admin/RouteList"><i class="fa fa-plane nav_icon"></i>Güzergah Detayları</a>
 						</li>
 						<li>
-							<a href="Reservation"><i class="fa fa-envelope nav_icon"></i>Rezervasyonlar</a>
+							<a href="/Admin/Reservation"><i class="fa fa-envelope nav_icon"></i>Rezervasyonlar</a>
 						</li>
 						<li>
-							<a href="Users"><i class="fa fa-user nav_icon"></i>Kullanıcılar</a>
+							<a href="/Admin/Users"><i class="fa fa-user nav_icon"></i>Kullanıcılar</a>
 						</li>
 					</ul>
 				</nav>
@@ -225,16 +225,29 @@
 				<div class="profile_details">
 					<ul>
 						<li class="dropdown profile_details_drop">
-							<p style="color: white;">Hoş Geldiniz, <br /> @ViewBag.username</p>
-							@if (ViewBag.username != "")
-							{
-								<button class="btn2" onclick="redirectToHomePage('/User/Login')">Çıkış Yap</button>
-							}
-							<script>
-								function redirectToHomePage(page) {
-									window.location.href = page;
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+								<div class="profile_img">
+									<span class="prfil-img"><img src="images/a.png" alt=""> </span>
+									<div class="user-name">
+										<p style="color: black;">@_localization.Getkey("Hoş Geldiniz,") <br /> @ViewBag.username</p>
+										<span>Yönetici</span>
+									</div>
+									<i class="fa fa-angle-down lnr"></i>
+									<i class="fa fa-angle-up lnr"></i>
+									<div class="clearfix"></div>
+								</div>
+							</a>
+							<ul class="dropdown-menu drp-mnu">
+								@if (ViewBag.username != "")
+								{
+									<li><button class="btn2" onclick="redirectToHomePage('/Main/Homepage')"><i class="fa fa-sign-out"></i> Çıkış yap</button></li>
 								}
-							</script>
+								<script>
+									function redirectToHomePage(page) {
+										window.location.href = page;
+									}
+								</script>
+							</ul>
 						</li>
 					</ul>
 				</div>
