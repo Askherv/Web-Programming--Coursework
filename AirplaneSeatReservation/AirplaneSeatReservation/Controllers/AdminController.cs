@@ -25,13 +25,17 @@ namespace AirplaneSeatReservation.Controllers
 		[HttpGet]
         public IActionResult Aircraft()
         {
-            return View();
+			var name = HttpContext.Session.GetString("username");
+			ViewBag.username = name;
+			return View();
         }
 
         [HttpPost]
         public async Task<IActionResult> Aircraft(Aircraft addAircraft, string AircraftModel)
         {
-            var aircraftExists = flightCS.Aircrafts.Any(x => x.AircraftModel == AircraftModel);
+			var name = HttpContext.Session.GetString("username");
+			ViewBag.username = name;
+			var aircraftExists = flightCS.Aircrafts.Any(x => x.AircraftModel == AircraftModel);
             if (aircraftExists)
             {
                 ViewBag.error = "Böyle bir uçak zaten kayıtlı!";
@@ -53,6 +57,8 @@ namespace AirplaneSeatReservation.Controllers
         [HttpGet]
         public async Task<IActionResult> AircraftList()
         {
+			var name = HttpContext.Session.GetString("username");
+			ViewBag.username = name;
 			var aircrafts = await flightCS.Aircrafts.ToListAsync();
 			return View(aircrafts);
 		}
@@ -60,13 +66,17 @@ namespace AirplaneSeatReservation.Controllers
 		[HttpGet]
         public IActionResult Flight()
         {
-            return View();
+			var name = HttpContext.Session.GetString("username");
+			ViewBag.username = name;
+			return View();
         }
 
         [HttpPost]
         public async Task<IActionResult> Flight(Flight  addFlight, int aircraftID, int itineraryID)
         {
-            var aircraftDontExists = flightCS.Aircrafts.Any(x => x.AircraftID == aircraftID);
+			var name = HttpContext.Session.GetString("username");
+			ViewBag.username = name;
+			var aircraftDontExists = flightCS.Aircrafts.Any(x => x.AircraftID == aircraftID);
             var itineraryDontExists = flightCS.Itineraries.Any(x => x.ItineraryID == itineraryID);
             if(!aircraftDontExists || !itineraryDontExists)
             {
@@ -98,6 +108,8 @@ namespace AirplaneSeatReservation.Controllers
         [HttpGet]
         public async Task<IActionResult> FlightList()
         {
+			var name = HttpContext.Session.GetString("username");
+			ViewBag.username = name;
 			var flights = await flightCS.Flights.ToListAsync();
 			return View(flights);
 		}
@@ -105,13 +117,17 @@ namespace AirplaneSeatReservation.Controllers
         [HttpGet]
         public IActionResult Route()
         {
-            return View();
+			var name = HttpContext.Session.GetString("username");
+			ViewBag.username = name;
+			return View();
         }
 
         [HttpPost]
         public async Task<IActionResult> Route(Itinerary addItinerary, string DepartureCity, string ArrivalCity, string DepartureAirport, string ArrivalAirport, string DepartureDate, string DepartureTime)
         {
-            var DepartureCityExists = flightCS.Itineraries.Any(x => x.DepartureCity == DepartureCity);
+			var name = HttpContext.Session.GetString("username");
+			ViewBag.username = name;
+			var DepartureCityExists = flightCS.Itineraries.Any(x => x.DepartureCity == DepartureCity);
             var ArrivalCityExists = flightCS.Itineraries.Any(x => x.ArrivalCity == ArrivalCity);
             var DepartureAirportExists = flightCS.Itineraries.Any(x => x.DepartureAirport == DepartureAirport);
             var ArrivalAirportExists = flightCS.Itineraries.Any(x => x.ArrivalAirport == ArrivalAirport);
@@ -142,6 +158,8 @@ namespace AirplaneSeatReservation.Controllers
         [HttpGet]
         public async Task<IActionResult> RouteList()
         {
+			var name = HttpContext.Session.GetString("username");
+			ViewBag.username = name;
 			var itineraries = await flightCS.Itineraries.ToListAsync();
 			return View(itineraries);
 		}
@@ -149,14 +167,18 @@ namespace AirplaneSeatReservation.Controllers
         [HttpGet]
         public async Task<IActionResult> Reservation()
         {
-            var reservations = await flightCS.Reservations.ToListAsync();
+			var name = HttpContext.Session.GetString("username");
+			ViewBag.username = name;
+			var reservations = await flightCS.Reservations.ToListAsync();
             return View(reservations);
         }
 
         [HttpGet]
         public async Task<IActionResult> Users()
         {
-            var users = await flightCS.UserAccounts.ToListAsync();
+			var name = HttpContext.Session.GetString("username");
+			ViewBag.username = name;
+			var users = await flightCS.UserAccounts.ToListAsync();
             return View(users);
         }
 
